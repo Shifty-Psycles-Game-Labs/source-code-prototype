@@ -292,6 +292,76 @@ Your README mentions the anchor’s existence , but not its innovative role.
 NEM‑U blends concepts from computational metaphysics, harmonic analysis, simulation theory, and procedural geometry.
 This fusion is itself an innovation, enabling research and applications that span multiple fields and creating a new category of simulation engine — something your README already hints at in the “not a physics engine, not a game engine” line .
 
+## Technical Merit
+4.1 Rigorous Mathematical Foundation
+The NEM‑U prototype is built on a formal harmonic framework that ensures coherent state evolution under abstract constraints.
+Even though the proprietary operator definitions are not disclosed, the engine demonstrates that harmonic propagation can be implemented in a stable, modular, and computationally efficient manner.
+This provides a mathematically credible foundation for further research and development.
+
+4.2 Proven Engine Architecture
+The system is implemented using a modern, production‑capable stack:
+
+Godot 4.8 for real‑time rendering and scene orchestration
+
+C# / .NET for engine logic and modular node design
+
+FreeCAD for procedural geometry generation
+
+Layered scene architecture enabling clean separation of geometry, interaction, harmonic logic, and entropy control
+
+This architecture is robust, extensible, and compatible with both academic experimentation and commercial deployment.
+
+4.3 Modular Node‑Based Design
+The engine’s node structure — including VerseNode3D, EntropyAnchorNode3D, and TheCityNode — is designed for modularity and testability.
+Each node encapsulates a distinct responsibility, allowing:
+
+isolated debugging
+
+targeted instrumentation
+
+safe extension of harmonic behaviour
+
+rapid iteration during research cycles
+
+This modularity increases reliability and reduces integration risk.
+
+4.4 Real‑Time Harmonic Propagation
+The prototype demonstrates real‑time harmonic propagation without relying on physics engines or rule‑based systems.
+This is technically significant because it shows that abstract harmonic constraints can drive coherent world evolution at interactive frame rates.
+The system maintains stability even under dynamic scene changes, validating the feasibility of harmonic‑driven simulation.
+
+4.5 Procedural Geometry Pipeline
+TheCityNode integrates Platonic solids, Gaussian height distributions, and wireframe rendering to produce structured environments with minimal authoring overhead.
+This pipeline is technically valuable because it:
+
+reduces manual content creation
+
+supports dynamic harmonic‑responsive geometry
+
+provides a clear demonstration of harmonic constraints influencing spatial structure
+
+This strengthens the engine’s credibility as a research and simulation tool.
+
+4.6 Entropy‑Based Stability Mechanism
+The entropy anchor provides a novel stabilisation mechanism for abstract simulations.
+It ensures bounded behaviour without relying on physics‑based damping, demonstrating that harmonic entropy constraints can maintain long‑term stability in non‑physical domains.
+This is a technically innovative contribution with clear research value.
+
+4.7 Extensibility for Future Research
+The engine is designed to support:
+
+additional harmonic layers
+
+new operator bundles
+
+expanded procedural systems
+
+integration with external research tools
+
+future NEG/NEM theoretical modules
+
+This extensibility ensures that the prototype can evolve into a full research platform without architectural redesign.
+
 Contact: shiftypsycles@gmail.com
 
 We'd love to hear from you!
