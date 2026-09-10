@@ -1,4 +1,3 @@
-# source-code-prototype:
 
 // ReadMe_XD_OM4_p.md
 // dotNET, C#, Godot 4.8, FreeCAD.
@@ -243,7 +242,7 @@ potential commercial deployment (e.g., Steam release of NEM_000.exe)
 
 ### Industry‑Ready Architecture  
 
-The prototype is built using:
+#### The prototype is built using:
 
 Godot 4.8
 
@@ -253,7 +252,14 @@ FreeCAD procedural geometry
 
 modular scene orchestration
 
-This ensures compatibility with existing pipelines, making the project viable for both academic and commercial partners.
+Ensuring compatibility with existing pipelines, making the project viable for both academic and commercial partners while using:
+
+LLM assistance to collate, articulate, examine and review thoughts:
+
+  - MS Copilot Personal
+  - Claude
+  - Grok
+- LLM assistance to build the project: Especial thanks goes to IBM and IBM Bob and Git Copilot
 
 Contact: shiftypsycles@gmail.com
 
