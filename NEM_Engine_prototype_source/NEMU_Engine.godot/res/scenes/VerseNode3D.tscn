@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bv58b08bwpgvg"]
+
+[ext_resource type="Script" uid="uid://ew0q8leecag" path="res://VerseNode3D.cs" id="1"]
+[ext_resource type="PackedScene" uid="uid://c228uwhn0t11w" path="res://TheCityNode.tscn" id="2_3nnht"]
+[ext_resource type="Script" uid="uid://6d28r7re8ohq" path="res://the_city_node.gd" id="3_3nnht"]
+
+[node name="VerseNode3D" type="Node3D" unique_id=1757285862]
+script = ExtResource("1")
+
+[node name="TheCityNode" parent="." unique_id=474060561 instance=ExtResource("2_3nnht")]
+script = ExtResource("3_3nnht")

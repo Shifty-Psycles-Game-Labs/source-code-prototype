@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://MagicFieldEngine.cs" id="1"]
+
+[node name="MagicLayer" type="Node3D"]
+
+[node name="MagicFieldEngine" type="Node" parent="."]
+script = ExtResource("1")
+ComplexPath = NodePath("../../EMFieldLayer/SimplicialComplex")
+LambdaStep = 0.01
+EmToArousal = 0.5
+CurvatureToIntent = 0.3

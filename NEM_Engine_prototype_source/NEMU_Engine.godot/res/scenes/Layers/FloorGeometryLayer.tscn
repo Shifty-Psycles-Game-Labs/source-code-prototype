@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://ProceduralFloor.cs" id="1"]
+
+[node name="FloorGeometryLayer" type="Node3D"]
+
+[node name="ProceduralFloor" type="Node3D" parent="."]
+script = ExtResource("1")
+ComplexPath = NodePath("../../EMFieldLayer/SimplicialComplex")
+PlayerPath = NodePath("../../PlayerLayer/PlayerController")
+FloorSize = Vector2(50, 50)
+FloorMargin = 1.0
+GeometryScale = 3.0

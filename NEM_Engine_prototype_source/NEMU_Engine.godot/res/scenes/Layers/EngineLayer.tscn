@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://UnifiedEngine.cs" id="1"]
+[ext_resource type="Script" path="res://EntropyAnchorNode3D.cs" id="2"]
+
+[node name="EngineLayer" type="Node3D"]
+
+[node name="UnifiedEngine" type="Node" parent="."]
+script = ExtResource("1")
+SimplicialPath   = NodePath("../../EMFieldLayer/SimplicialComplex")
+MaxwellPath      = NodePath("../../EMFieldLayer/MaxwellEngine")
+GrPath           = NodePath("../../EMFieldLayer/GRHarmonicEngine")
+ObserverPath     = NodePath("../../PlayerLayer/Observer")
+MagicPath        = NodePath("../../MagicLayer/MagicFieldEngine")
+KnowledgePath    = NodePath("../../CognitiveLayer/KnowledgeGraph")
+EmotionPath      = NodePath("../../CognitiveLayer/EmotionField")
+IntentPath       = NodePath("../../CognitiveLayer/IntentField")
+ActionPath       = NodePath("../../CognitiveLayer/ActionLayer")
+CouplerPath      = NodePath("../../CognitiveLayer/RelationshipCoupler")
+NLCASPath        = NodePath("../../CognitiveLayer/NLCASNode")
+PlayerHElementPath = NodePath("../../CognitiveLayer/PlayerHElement")
+EmToGrStrength   = 1.0
+GrToEmStrength   = 1.0
+GrToCogStrength  = 0.3
+EmToCogStrength  = 0.5
+ManifoldRegulation = true
+
+[node name="EntropyAnchorNode3D" type="Node3D" parent="."]
+script = ExtResource("2")
+ClampPotential = 1.0
+AutoBroadcast = false
