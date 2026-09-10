@@ -1,0 +1,23 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dsiumuielejue"]
+
+[ext_resource type="Shader" uid="uid://cu7hsyjyiil6o" path="res://res/shaders/VerseNode.gdshader" id="1_6552w"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_6552w")
+shader_parameter/u_gr_scalar = 0.0
+shader_parameter/u_em_flux = 0.0
+shader_parameter/u_torsion_norm = 0.0
+shader_parameter/u_at = 1.0
+shader_parameter/u_lambda = 0.0
+shader_parameter/u_intent = 0.0
+shader_parameter/u_emotion_arousal = 0.0
+shader_parameter/u_emotion_valence = 0.0
+shader_parameter/u_knowledge = 0.0
+shader_parameter/u_player_torsion = 0.0
+shader_parameter/u_player_valence = 0.0
+shader_parameter/u_player_intent = 0.0
+shader_parameter/u_collapse_flash = 0.0
+shader_parameter/u_displacement_scale = 0.08
+shader_parameter/u_alpha_floor = 0.25
+shader_parameter/u_emission_scale = 1.0

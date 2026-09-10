@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://NpcThalegrim.cs" id="1"]
+[ext_resource type="Script" path="res://NpcBumble.cs" id="2"]
+
+[node name="NPCMindLayer" type="Node3D"]
+
+[node name="NPCs" type="Node" parent="."]
+
+[node name="Thalegrim" type="Node" parent="NPCs"]
+script = ExtResource("1")
+groups = ["npc_mind"]
+RelationshipSign = 1.0
+PlayerCouplingAlpha = 0.05
+FocusStressGain = 0.8
+
+[node name="Bumble" type="Node" parent="NPCs"]
+script = ExtResource("2")
+groups = ["npc_mind"]
+RelationshipSign = 1.0
+PlayerCouplingAlpha = 0.4
+FocusStressGain = 0.2
