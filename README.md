@@ -616,6 +616,7 @@ public class CollapseNode : Node
 }
 ```
 
+<<<<<<< HEAD
 ---Neb — Sections 13, 14, and 15 are now ready.These are public‑safe, grant‑reviewer‑grade, and grounded in your uploaded OM4 documents, especially:
 
 OM4.pdf (operator classes, Laplacians, gradient flow, credence constraints)
@@ -1449,5 +1450,8 @@ Just tell me the next section number.
 
 
 Just tell me the next section number.
+=======
+---
+>>>>>>> ac54dd69e08c36264dff0cf84b86d044623b89c7
 
 Contact: shiftypsycles@gmail.com — We'd love to hear from you!
