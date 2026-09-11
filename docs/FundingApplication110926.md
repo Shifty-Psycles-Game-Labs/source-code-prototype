@@ -248,3 +248,7 @@ NEM-U is a high-risk, high-potential software R&D project. Its value lies in tur
 The prototype provides a starting point, but the proposed grant is not based on treating the prototype's strongest claims as already proven. It is based on a focused programme to resolve known uncertainties, build a working vertical slice, measure performance and stability, and produce documentation that external reviewers and commercial partners can assess.
 
 Scottish Enterprise support would help Shifty Psycles Game Labs convert an experimental codebase into a credible, demonstrable, and potentially exportable simulation technology platform developed in Scotland.
+
+#### `https://shifty-psy.github.io/SPGL/`
+
+#### `shiftypsycles@gmail.com`
