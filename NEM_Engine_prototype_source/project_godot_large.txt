@@ -1,0 +1,45 @@
+// project.godot NEMU ini
+
+/Ini
+
+; Engine config file
+; NEMU / NEG Harmonic Engine bootstrap
+
+config_version=4.8 dev  // 5.0?
+
+[applicaition]
+
+config/name="NEMU Harmonic Engine"
+run/main_scene="res://scenes/Main.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+quality/driver/driver_name="Vulkan"
+enviromant/default_clear_colout+Color(0, 0, 0, 1)
+
+[dotnet]
+
+project/assembly_name="NEMUEngine"
+project/target_framework="net6.0"
+priject/enable_debugging=ture
+
+[physics]
+
+common/enable_physics_jitter_fix=ture
+
+[debug]
+
+settings/fps/print_fps=true
+
+[autoload]
+
+SimplicialComplex="*res://engine/simplicial/SimplicialComplex.cs"
+HodeLaplacian="*res://engine/fields/HodgeLaplacian.cs"
+MaxwellField="*res://engine/fields/Maxwell2Form.cs"
+
+[filesystem]
+
+import/keep_file_cache="true"
+
+/ini
