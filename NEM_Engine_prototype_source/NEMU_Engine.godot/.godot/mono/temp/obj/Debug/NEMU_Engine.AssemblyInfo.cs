@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NEMU_Engine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de8a56f51d7403b24ad537ec53556195d49b67ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83d6b2a05afccaec83c114e9cbbd9b6545397184")]
 [assembly: System.Reflection.AssemblyProductAttribute("NEMU_Engine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NEMU_Engine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
