@@ -414,7 +414,6 @@ These govern Maxwell‑like and GR‑like behaviour in the discrete manifold.
 
 Act on the rank‑4 cognitive tensor bundle H.
 
-Examples (from OM4.pdf):
 - Gradient flow operator: `dH/dt = −∇Φ(H)`
 - Cognitive diffusion operators
 
@@ -427,7 +426,6 @@ These govern reasoning depth, emotional stability, recursion limits, and operato
 
 Act on probability measures over world states.
 
-Examples (from OM4.pdf):
 - Credence‑collapse operators
 - Entropy‑weighted outcome selectors
 
@@ -772,15 +770,11 @@ Where the Hodge Laplacian is:
 
 [ \Delta = d d^{\dagger} + d^{\dagger} d ]
 
-(OM4.pdf)
-
 ### 15.3 Entropy Field
 
 Entropy is defined as:
 
 [ S(x) = |H(x)| ]
-
-(README_XD_NEM-U_OM4_001.md)
 
 ### 15.4 Progression Operator
 
@@ -800,19 +794,11 @@ Cognitive evolution follows:
 
 [ \frac{dH}{dt} = -\nabla \Phi(H) ]
 
-(OM4.pdf)
-
 ### 15.7 Credence‑Entropy Constraint
 
 Metaphysical operators must satisfy:
 
 [ \text{Cost}(O) \ge D_{\mathrm{KL}}(P' \parallel P) \cdot H(\text{belief}) ]
-
-(OM4.pdf)
-
-## 16. SceneTree Architecture Diagram
-
-## 17. Cognitive Field Tensor Specification (Public‑Safe)
 
 ## 18. Harmonic Debugging Tools & Instrumentation
 
@@ -892,8 +878,6 @@ From your uploaded file:
 This produces a 4×4 tension matrix describing cross‑axis influence.
 
 ### 17.4 Cognitive Gradient Flow
-
-From OM4.pdf:
 
 [ \frac{dH}{dt} = -\nabla \Phi(H) ]
 
@@ -999,12 +983,6 @@ These can be adjusted live for experimentation.
 
 ## 19. Glossary (Public‑Safe)
 
-## 20. References & Citations
-
-## 21. Appendix: Safe Operator Examples
-
-## 19. Glossary (Public‑Safe)
-
 Admissibility
 
 A rule determining whether an operator is allowed to act on a field.In OM4, an operator is admissible if it preserves the invariants of its domain (harmonicity, monotonicity, credence‑entropy constraints).
@@ -1054,4 +1032,5 @@ Tension Matrix
 A 4×4 matrix describing cross‑axis cognitive influence:[ T_{ij} = \text{magnitude}_i \cdot \text{phase}_j ]
 
 ## 20. References & Citations
+
 `https://shifty-psy.github.io/SPGL/`
