@@ -1,0 +1,934 @@
+git commit -m "Website rebuild: NEM-U preview page update (10092026)"
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ ls
+NEM_Engine_prototype_source/
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ git init
+Initialized empty Git repository in E:/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_
+release/.git/
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ git remote add origin https://github.com/Shifty-Psycles-Game-Labs/source-code-prototype.git
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ git add NEM_Engine__prototype_source/
+fatal: pathspec 'NEM_Engine__prototype_source/' did not match any files
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ git add .
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ActionContext.cs', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ActionContext.cs.uid'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ActionLayerNode.cs',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ActionLayerNode.cs.ui
+d', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseClassesAndInterfa
+ces.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseContinuousField.c
+s', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseContinuousField.c
+s.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseDiscreteLayer.cs'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseDiscreteLayer.cs.
+uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseManifoldLayer.cs'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/BaseManifoldLayer.cs.
+uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueDatabase.cs',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueDatabase.cs.u
+id', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueEngine.cs', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueEngine.cs.uid
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueTone.cs', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueTone.cs.uid',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DichotomyOperator.cs'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/DichotomyOperator.cs.
+uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/EmotionFieldNode.cs',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/EmotionFieldNode.cs.u
+id', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyAnchorNode3D.c
+s', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyAnchorNode3D.c
+s.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyCollapseEngine
+.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyCollapseEngine
+.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/FieldProbe.cs', LF wi
+ll be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/FieldProbe.cs.uid', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/GRDiscreteOperators.c
+s', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/GRDiscreteOperators.c
+s.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/GRHarmonicEngine.cs',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/GRHarmonicEngine.cs.u
+id', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/GR_Operator.cs', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/GR_Operator.cs.uid',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HManifoldSnapshot.cs'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HManifoldSnapshot.cs.
+uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HUDManifoldDisplay.cs
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HUDManifoldDisplay.cs
+.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicAttentionMatr
+ix.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicAttentionMatr
+ix.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicCellGenerator
+.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicCellGenerator
+.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HodgeLaplacian.cs', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/HodgeLaplacian.cs.uid
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/IncidenceBuilder.cs',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/IncidenceBuilder.cs.u
+id', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/IntentFieldNode.cs',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/IntentFieldNode.cs.ui
+d', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/KnowledgeGraphNode.cs
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/KnowledgeGraphNode.cs
+.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MagicCastingState.cs'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MagicCastingState.cs.
+uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldEngine.cs',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldEngine.cs.u
+id', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldOperator.cs
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldOperator.cs
+.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ManifoldRegulator.cs'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ManifoldRegulator.cs.
+uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MaxwellEngine2Form.cs
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MaxwellEngine2Form.cs
+.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MetricNode.cs.uid', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MovementTrail.cs', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/MovementTrail.cs.uid'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.ol
+d', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.ol
+d.1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.ol
+d.2', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.sln', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NLCASNode.cs', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NLCASNode.cs.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NmuAst.cs.uid', LF wi
+ll be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NmuParser.cs.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResource.cs.uid',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceFormatLoad
+er.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceLoaderNode
+.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NpcBumble.cs', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NpcBumble.cs.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NpcMind.cs', LF will
+be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NpcMind.cs.uid', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NpcThalegrim.cs', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/NpcThalegrim.cs.uid',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ObserverController.cs
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ObserverController.cs
+.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerController.cs',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerController.cs.u
+id', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerHElement.cs', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerHElement.cs.uid
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ProceduralFloor.cs',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/ProceduralFloor.cs.ui
+d', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PseudoLLMIndex.cs', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PseudoLLMIndex.cs.uid
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PsiDebug.cs', LF will
+ be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/PsiDebug.cs.uid', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/Quest.cs', LF will be
+ replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/Quest.cs.uid', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/QuestEngine.cs', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/QuestEngine.cs.uid',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/RaycastInteractionLay
+er.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/RaycastInteractionLay
+er.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/Regulator.cs', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/Regulator.cs.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/RelationshipCoupler.c
+s', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/RelationshipCoupler.c
+s.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/SceneTreeRoot.tscn',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/SimplicialComplexNode
+.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/SimplicialComplexNode
+.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/SparseMatrix.cs', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/SparseMatrix.cs.uid',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/TextChunk.cs', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/TextChunk.cs.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.cs', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.cs.uid',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.tscn', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/UnifiedEngine.cs', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/UnifiedEngine.cs.uid'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/UniverseRoot.cs', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/UniverseRoot.cs.uid',
+ LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.cs', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.cs.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.gd', LF wil
+l be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.gd.uid', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode3D.cs', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode3D.cs.uid',
+LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/WireframeFieldVisuali
+zer.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/WireframeFieldVisuali
+zer.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer
+/fcstd_importer.gd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer
+/fcstd_importer.gd.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer
+/fcstd_to_obj.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer
+/plugin.cfg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer
+/plugin.gd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer
+/plugin.gd.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/assets/CityVerseNode.
+cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/assets/CityVerseNode.
+cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/icon.png.import', LF
+will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/neg_fly_camera.gd', L
+F will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/neg_fly_camera.gd.uid
+', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build.ps1', LF w
+ill be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build_20260910_1
+63005.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/project.godot', LF wi
+ll be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/VerseNodeMaterial
+.tres', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/Cog
+nitiveLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/EMF
+ieldLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/Eng
+ineLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/Flo
+orGeometryLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/HUD
+Layer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/Mag
+icLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/NPC
+MindLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/Pla
+yerLayer.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/VerseNode3
+D.tscn', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scripts/HarmonicS
+eed.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/scripts/HarmonicS
+eed.cs.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode
+.gdshader', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode
+.gdshader.uid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode
+Material.tres', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/the_city_node.gd', LF
+ will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/the_city_node.gd.uid'
+, LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/verse_node.gd', LF wi
+ll be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'NEM_Engine_prototype_source/NEMU_Engine.godot/verse_node.gd.uid', L
+F will be replaced by CRLF the next time Git touches it
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ ^C
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (master)
+$ git commit -m "Initial engine source upload (static mirror 10092026)"
+[master (root-commit) eba8ecf] Initial engine source upload (static mirror 10092026)
+ 191 files changed, 11935 insertions(+)
+ create mode 100644 NEM_Engine_prototype_source/AGENTS.md
+ create mode 100644 NEM_Engine_prototype_source/FieldCouplerNd.cs
+ create mode 100644 NEM_Engine_prototype_source/FieldCouplerNd3d.cs
+ create mode 100644 NEM_Engine_prototype_source/FieldProbe.cs
+ create mode 100644 NEM_Engine_prototype_source/GDiscreteOperators.cs
+ create mode 100644 NEM_Engine_prototype_source/GDiscreteOperatorsRes.cs
+ create mode 100644 NEM_Engine_prototype_source/GREngine.cs
+ create mode 100644 NEM_Engine_prototype_source/GRHarmonicEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/HUDReadout.cs
+ create mode 100644 NEM_Engine_prototype_source/MasterNode.cs
+ create mode 100644 NEM_Engine_prototype_source/MaxwellEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/MaxwellEngine2Form.cs
+ create mode 100644 NEM_Engine_prototype_source/MaxwellEngineRes.cs
+ create mode 100644 NEM_Engine_prototype_source/MetricComplex.cs
+ create mode 100644 NEM_Engine_prototype_source/MetricNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/AGENTS.md
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionContext.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionContext.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionLayerNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionLayerNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseClassesAndInterfaces.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseClassesAndInterfaces.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseContinuousField.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseContinuousField.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseDiscreteLayer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseDiscreteLayer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseManifoldLayer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseManifoldLayer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueDatabase.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueDatabase.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueTone.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueTone.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DichotomyOperator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DichotomyOperator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EmotionFieldNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EmotionFieldNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyAnchorNode3D.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyAnchorNode3D.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyCollapseEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyCollapseEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/FieldProbe.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/FieldProbe.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRDiscreteOperators.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRDiscreteOperators.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRHarmonicEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRHarmonicEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GR_Operator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GR_Operator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HManifoldSnapshot.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HManifoldSnapshot.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HUDManifoldDisplay.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HUDManifoldDisplay.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicAttentionMatrix.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicAttentionMatrix.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicCellGenerator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicCellGenerator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HodgeLaplacian.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HodgeLaplacian.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IncidenceBuilder.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IncidenceBuilder.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IntentFieldNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IntentFieldNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/KnowledgeGraphNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/KnowledgeGraphNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicCastingState.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicCastingState.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldOperator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldOperator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ManifoldRegulator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ManifoldRegulator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MaxwellEngine2Form.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MaxwellEngine2Form.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MetricNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MetricNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MovementTrail.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MovementTrail.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEM-U_TheorumProof2026.txt
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.old
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.old.1
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.old.2
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.sln
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NLCASNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NLCASNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuAst.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuAst.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuParser.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuParser.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResource.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResource.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceFormatLoader.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceFormatLoader.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceLoaderNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceLoaderNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcBumble.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcBumble.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcMind.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcMind.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcThalegrim.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcThalegrim.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ObserverController.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ObserverController.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerController.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerController.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerHElement.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerHElement.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ProceduralFloor.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ProceduralFloor.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PseudoLLMIndex.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PseudoLLMIndex.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PsiDebug.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PsiDebug.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Quest.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Quest.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/QuestEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/QuestEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RaycastInteractionLayer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RaycastInteractionLayer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Regulator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Regulator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RelationshipCoupler.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RelationshipCoupler.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SceneTreeRoot.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SimplicialComplexNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SimplicialComplexNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SparseMatrix.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SparseMatrix.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TextChunk.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TextChunk.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UnifiedEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UnifiedEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UniverseRoot.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UniverseRoot.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode3D.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode3D.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/WireframeFieldVisualizer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/WireframeFieldVisualizer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/fcstd_importer.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/fcstd_importer.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/fcstd_to_obj.py
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/plugin.cfg
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/plugin.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/plugin.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/assets/CityVerseNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/assets/CityVerseNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/icon.png
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/icon.png.import
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ms-dotnettools.csdevkit-3.20.199-win32-x64.vsix
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/neg_fly_camera.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/neg_fly_camera.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build.log
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build.ps1
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build_20260910_163005.log
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/project.godot
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/VerseNodeMaterial.tres
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/CognitiveLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/EMFieldLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/EngineLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/FloorGeometryLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/HUDLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/MagicLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/NPCMindLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/PlayerLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/VerseNode3D.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scripts/HarmonicSeed.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scripts/HarmonicSeed.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode.gdshader
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode.gdshader.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNodeMaterial.tres
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/the_city_node.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/the_city_node.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/verse_node.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/verse_node.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/RoamingSamplerTestScene.cs
+ create mode 100644 NEM_Engine_prototype_source/SimplicialComplexNode.cs
+Enumerating objects: 200, done.
+Counting objects: 100% (200/200), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (127/127), done.
+Writing objects: 100% (200/200), 73.95 MiB | 1.27 MiB/s, done.
+Total 200 (delta 14), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (14/14), done.
+remote: warning: See https://gh.io/lfs for more information.
+Merge made by the 'ort' strategy.
+ NEM_Engine_prototype_source/AGENTS.md              |  42 ++
+ NEM_Engine_prototype_source/FieldCouplerNd.cs      |  50 ++
+ NEM_Engine_prototype_source/FieldCouplerNd3d.cs    |  36 ++                   e Storage - https://git-lfs.gith NEM_Engine_prototype_source/FieldProbe.cs          |  43 ++
+ NEM_Engine_prototype_source/GDiscreteOperators.cs  |  42 ++
+ .../GDiscreteOperatorsRes.cs                       |  42 ++
+ NEM_Engine_prototype_source/GREngine.cs            |  34 ++                   pull/new/master
+ NEM_Engine_prototype_source/GRHarmonicEngine.cs    |  70 +++
+ NEM_Engine_prototype_source/HUDReadout.cs          |  23 +
+ NEM_Engine_prototype_source/MasterNode.cs          |  22 +
+ NEM_Engine_prototype_source/MaxwellEngine.cs       |  55 ++
+ NEM_Engine_prototype_source/MaxwellEngine2Form.cs  | 182 ++++++
+ NEM_Engine_prototype_source/MaxwellEngineRes.cs    |  25 +
+ NEM_Engine_prototype_source/MetricComplex.cs       |  16 +
+ NEM_Engine_prototype_source/MetricNode.cs          |   6 +
+ .../NEMU_Engine.godot/AGENTS.md                    |  42 ++                   _codePrototype_release (master)
+ .../NEMU_Engine.godot/ActionContext.cs             | 100 ++++
+ .../NEMU_Engine.godot/ActionContext.cs.uid         |   1 +
+ .../NEMU_Engine.godot/ActionLayerNode.cs           |   3 +                    _codePrototype_release (master)
+ .../NEMU_Engine.godot/ActionLayerNode.cs.uid       |   1 +
+ .../NEMU_Engine.godot/BaseClassesAndInterfaces.cs  | 649 +++++++++++++++++++++
+ .../BaseClassesAndInterfaces.cs.uid                |   1 +
+ .../NEMU_Engine.godot/BaseContinuousField.cs       |   3 +
+ .../NEMU_Engine.godot/BaseContinuousField.cs.uid   |   1 +
+ .../NEMU_Engine.godot/BaseDiscreteLayer.cs         |   3 +
+ .../NEMU_Engine.godot/BaseDiscreteLayer.cs.uid     |   1 +
+ .../NEMU_Engine.godot/BaseManifoldLayer.cs         |   3 +
+ .../NEMU_Engine.godot/BaseManifoldLayer.cs.uid     |   1 +
+ .../NEMU_Engine.godot/DialogueDatabase.cs          |  41 ++
+ .../NEMU_Engine.godot/DialogueDatabase.cs.uid      |   1 +
+ .../NEMU_Engine.godot/DialogueEngine.cs            | 148 +++++
+ .../NEMU_Engine.godot/DialogueEngine.cs.uid        |   1 +
+ .../NEMU_Engine.godot/DialogueTone.cs              |  17 +
+ .../NEMU_Engine.godot/DialogueTone.cs.uid          |   1 +
+ .../NEMU_Engine.godot/DichotomyOperator.cs         | 121 ++++
+ .../NEMU_Engine.godot/DichotomyOperator.cs.uid     |   1 +
+ .../NEMU_Engine.godot/EmotionFieldNode.cs          |   3 +
+ .../NEMU_Engine.godot/EmotionFieldNode.cs.uid      |   1 +
+ .../NEMU_Engine.godot/EntropyAnchorNode3D.cs       |  54 ++
+ .../NEMU_Engine.godot/EntropyAnchorNode3D.cs.uid   |   1 +
+ .../NEMU_Engine.godot/EntropyCollapseEngine.cs     | 267 +++++++++
+ .../NEMU_Engine.godot/EntropyCollapseEngine.cs.uid |   1 +
+ .../NEMU_Engine.godot/FieldProbe.cs                | 104 ++++
+ .../NEMU_Engine.godot/FieldProbe.cs.uid            |   1 +
+ .../NEMU_Engine.godot/GRDiscreteOperators.cs       | 102 ++++
+ .../NEMU_Engine.godot/GRDiscreteOperators.cs.uid   |   1 +
+ .../NEMU_Engine.godot/GRHarmonicEngine.cs          | 164 ++++++
+ .../NEMU_Engine.godot/GRHarmonicEngine.cs.uid      |   1 +
+ .../NEMU_Engine.godot/GR_Operator.cs               |  73 +++
+ .../NEMU_Engine.godot/GR_Operator.cs.uid           |   1 +
+ .../NEMU_Engine.godot/HManifoldSnapshot.cs         |  76 +++
+ .../NEMU_Engine.godot/HManifoldSnapshot.cs.uid     |   1 +
+ .../NEMU_Engine.godot/HUDManifoldDisplay.cs        | 256 ++++++++
+ .../NEMU_Engine.godot/HUDManifoldDisplay.cs.uid    |   1 +
+ .../NEMU_Engine.godot/HarmonicAttentionMatrix.cs   | 230 ++++++++
+ .../HarmonicAttentionMatrix.cs.uid                 |   1 +
+ .../NEMU_Engine.godot/HarmonicCellGenerator.cs     | 151 +++++
+ .../NEMU_Engine.godot/HarmonicCellGenerator.cs.uid |   1 +
+ .../NEMU_Engine.godot/HodgeLaplacian.cs            | 221 +++++++
+ .../NEMU_Engine.godot/HodgeLaplacian.cs.uid        |   1 +
+ .../NEMU_Engine.godot/IncidenceBuilder.cs          | 116 ++++
+ .../NEMU_Engine.godot/IncidenceBuilder.cs.uid      |   1 +
+ .../NEMU_Engine.godot/IntentFieldNode.cs           |   3 +
+ .../NEMU_Engine.godot/IntentFieldNode.cs.uid       |   1 +
+ .../NEMU_Engine.godot/KnowledgeGraphNode.cs        |   3 +
+ .../NEMU_Engine.godot/KnowledgeGraphNode.cs.uid    |   1 +
+ .../NEMU_Engine.godot/MagicCastingState.cs         | 116 ++++
+ .../NEMU_Engine.godot/MagicCastingState.cs.uid     |   1 +
+ .../NEMU_Engine.godot/MagicFieldEngine.cs          | 545 +++++++++++++++++
+ .../NEMU_Engine.godot/MagicFieldEngine.cs.uid      |   1 +
+ .../NEMU_Engine.godot/MagicFieldOperator.cs        |  91 +++
+ .../NEMU_Engine.godot/MagicFieldOperator.cs.uid    |   1 +
+ .../NEMU_Engine.godot/ManifoldRegulator.cs         | 121 ++++
+ .../NEMU_Engine.godot/ManifoldRegulator.cs.uid     |   1 +
+ .../NEMU_Engine.godot/MaxwellEngine2Form.cs        | 164 ++++++
+ .../NEMU_Engine.godot/MaxwellEngine2Form.cs.uid    |   1 +
+ .../NEMU_Engine.godot/MetricNode.cs                |  42 ++
+ .../NEMU_Engine.godot/MetricNode.cs.uid            |   1 +
+ .../NEMU_Engine.godot/MovementTrail.cs             |  98 ++++
+ .../NEMU_Engine.godot/MovementTrail.cs.uid         |   1 +
+ .../NEMU_Engine.godot/NEM-U_TheorumProof2026.txt   | 325 +++++++++++
+ .../NEMU_Engine.godot/NEMU_Engine.csproj           |  11 +
+ .../NEMU_Engine.godot/NEMU_Engine.csproj.old       |  15 +
+ .../NEMU_Engine.godot/NEMU_Engine.csproj.old.1     |  11 +
+ .../NEMU_Engine.godot/NEMU_Engine.csproj.old.2     |  11 +
+ .../NEMU_Engine.godot/NEMU_Engine.sln              |  19 +
+ .../NEMU_Engine.godot/NLCASNode.cs                 | 389 ++++++++++++
+ .../NEMU_Engine.godot/NLCASNode.cs.uid             |   1 +
+ .../NEMU_Engine.godot/NmuAst.cs                    |  73 +++
+ .../NEMU_Engine.godot/NmuAst.cs.uid                |   1 +
+ .../NEMU_Engine.godot/NmuParser.cs                 | 171 ++++++
+ .../NEMU_Engine.godot/NmuParser.cs.uid             |   1 +
+ .../NEMU_Engine.godot/NmuResource.cs               |   7 +
+ .../NEMU_Engine.godot/NmuResource.cs.uid           |   1 +
+ .../NEMU_Engine.godot/NmuResourceFormatLoader.cs   |  38 ++
+ .../NmuResourceFormatLoader.cs.uid                 |   1 +
+ .../NEMU_Engine.godot/NmuResourceLoaderNode.cs     |  19 +
+ .../NEMU_Engine.godot/NmuResourceLoaderNode.cs.uid |   1 +
+ .../NEMU_Engine.godot/NpcBumble.cs                 |  67 +++
+ .../NEMU_Engine.godot/NpcBumble.cs.uid             |   1 +
+ .../NEMU_Engine.godot/NpcMind.cs                   | 319 ++++++++++
+ .../NEMU_Engine.godot/NpcMind.cs.uid               |   1 +
+ .../NEMU_Engine.godot/NpcThalegrim.cs              |  68 +++
+ .../NEMU_Engine.godot/NpcThalegrim.cs.uid          |   1 +
+ .../NEMU_Engine.godot/ObserverController.cs        | 153 +++++
+ .../NEMU_Engine.godot/ObserverController.cs.uid    |   1 +
+ .../NEMU_Engine.godot/PlayerController.cs          | 254 ++++++++
+ .../NEMU_Engine.godot/PlayerController.cs.uid      |   1 +
+ .../NEMU_Engine.godot/PlayerHElement.cs            | 425 ++++++++++++++
+ .../NEMU_Engine.godot/PlayerHElement.cs.uid        |   1 +
+ .../NEMU_Engine.godot/ProceduralFloor.cs           | 112 ++++
+ .../NEMU_Engine.godot/ProceduralFloor.cs.uid       |   1 +
+ .../NEMU_Engine.godot/PseudoLLMIndex.cs            | 179 ++++++
+ .../NEMU_Engine.godot/PseudoLLMIndex.cs.uid        |   1 +
+ .../NEMU_Engine.godot/PsiDebug.cs                  | 103 ++++
+ .../NEMU_Engine.godot/PsiDebug.cs.uid              |   1 +
+ .../NEMU_Engine.godot/Quest.cs                     |  39 ++
+ .../NEMU_Engine.godot/Quest.cs.uid                 |   1 +
+ .../NEMU_Engine.godot/QuestEngine.cs               |  72 +++
+ .../NEMU_Engine.godot/QuestEngine.cs.uid           |   1 +
+ .../NEMU_Engine.godot/RaycastInteractionLayer.cs   | 149 +++++
+ .../RaycastInteractionLayer.cs.uid                 |   1 +
+ .../NEMU_Engine.godot/Regulator.cs                 | 187 ++++++
+ .../NEMU_Engine.godot/Regulator.cs.uid             |   1 +
+ .../NEMU_Engine.godot/RelationshipCoupler.cs       |   3 +
+ .../NEMU_Engine.godot/RelationshipCoupler.cs.uid   |   1 +
+ .../NEMU_Engine.godot/SceneTreeRoot.tscn           | 196 +++++++
+ .../NEMU_Engine.godot/SimplicialComplexNode.cs     |  80 +++
+ .../NEMU_Engine.godot/SimplicialComplexNode.cs.uid |   1 +
+ .../NEMU_Engine.godot/SparseMatrix.cs              | 213 +++++++
+ .../NEMU_Engine.godot/SparseMatrix.cs.uid          |   1 +
+ .../NEMU_Engine.godot/TextChunk.cs                 |  33 ++
+ .../NEMU_Engine.godot/TextChunk.cs.uid             |   1 +
+ .../NEMU_Engine.godot/TheCityNode.cs               | 104 ++++
+ .../NEMU_Engine.godot/TheCityNode.cs.uid           |   1 +
+ .../NEMU_Engine.godot/TheCityNode.tscn             |   3 +
+ .../NEMU_Engine.godot/UnifiedEngine.cs             | 428 ++++++++++++++
+ .../NEMU_Engine.godot/UnifiedEngine.cs.uid         |   1 +
+ .../NEMU_Engine.godot/UniverseRoot.cs              | 219 +++++++
+ .../NEMU_Engine.godot/UniverseRoot.cs.uid          |   1 +
+ .../NEMU_Engine.godot/VerseNode.cs                 |  15 +
+ .../NEMU_Engine.godot/VerseNode.cs.uid             |   1 +
+ .../NEMU_Engine.godot/VerseNode.gd                 | 260 +++++++++
+ .../NEMU_Engine.godot/VerseNode.gd.uid             |   1 +
+ .../NEMU_Engine.godot/VerseNode3D.cs               | 167 ++++++
+ .../NEMU_Engine.godot/VerseNode3D.cs.uid           |   1 +
+ .../NEMU_Engine.godot/WireframeFieldVisualizer.cs  | 331 +++++++++++
+ .../WireframeFieldVisualizer.cs.uid                |   1 +
+ .../addons/fcstd_importer/fcstd_importer.gd        | 204 +++++++
+ .../addons/fcstd_importer/fcstd_importer.gd.uid    |   1 +
+ .../addons/fcstd_importer/fcstd_to_obj.py          | 127 ++++
+ .../addons/fcstd_importer/plugin.cfg               |   7 +
+ .../addons/fcstd_importer/plugin.gd                |  12 +
+ .../addons/fcstd_importer/plugin.gd.uid            |   1 +
+ .../NEMU_Engine.godot/assets/CityVerseNode.cs      |  10 +
+ .../NEMU_Engine.godot/assets/CityVerseNode.cs.uid  |   1 +
+ .../NEMU_Engine.godot/icon.png                     | Bin 0 -> 2234 bytes
+ .../NEMU_Engine.godot/icon.png.import              |  41 ++
+ ...ms-dotnettools.csdevkit-3.20.199-win32-x64.vsix | Bin 0 -> 77915694 bytes
+ .../NEMU_Engine.godot/neg_fly_camera.gd            |  75 +++
+ .../NEMU_Engine.godot/neg_fly_camera.gd.uid        |   1 +
+ .../NEMU_Engine.godot/nemu_build.log               | Bin 0 -> 3366 bytes
+ .../NEMU_Engine.godot/nemu_build.ps1               |  65 +++
+ .../nemu_build_20260910_163005.log                 |   9 +
+ .../NEMU_Engine.godot/project.godot                | 341 +++++++++++
+ .../NEMU_Engine.godot/res/VerseNodeMaterial.tres   |  23 +
+ .../res/scenes/Layers/CognitiveLayer.tscn          |  38 ++
+ .../res/scenes/Layers/EMFieldLayer.tscn            |  57 ++
+ .../res/scenes/Layers/EngineLayer.tscn             |  31 +
+ .../res/scenes/Layers/FloorGeometryLayer.tscn      |  13 +
+ .../res/scenes/Layers/HUDLayer.tscn                |  47 ++
+ .../res/scenes/Layers/MagicLayer.tscn              |  12 +
+ .../res/scenes/Layers/NPCMindLayer.tscn            |  22 +
+ .../res/scenes/Layers/PlayerLayer.tscn             |  43 ++
+ .../NEMU_Engine.godot/res/scenes/VerseNode3D.tscn  |  11 +
+ .../NEMU_Engine.godot/res/scripts/HarmonicSeed.cs  | 182 ++++++
+ .../res/scripts/HarmonicSeed.cs.uid                |   1 +
+ .../res/shaders/VerseNode.gdshader                 | 256 ++++++++
+ .../res/shaders/VerseNode.gdshader.uid             |   1 +
+ .../res/shaders/VerseNodeMaterial.tres             |  23 +
+ .../NEMU_Engine.godot/the_city_node.gd             |  11 +
+ .../NEMU_Engine.godot/the_city_node.gd.uid         |   1 +
+ .../NEMU_Engine.godot/verse_node.gd                |  11 +
+ .../NEMU_Engine.godot/verse_node.gd.uid            |   1 +
+ .../RoamingSamplerTestScene.cs                     |  30 +
+ .../SimplicialComplexNode.cs                       |  18 +
+ NEM_Engine_prototype_source/TensorField.cs         |  16 +
+ NEM_Engine_prototype_source/UnifiedEngine.cs       |  43 ++
+ NEM_Engine_prototype_source/UniverseRoot.cs        |   1 +
+ NEM_Engine_prototype_source/Volume.cs              |   0
+ NEM_Engine_prototype_source/icon.png               | Bin 0 -> 2178 bytes
+ 191 files changed, 11935 insertions(+)
+ create mode 100644 NEM_Engine_prototype_source/AGENTS.md
+ create mode 100644 NEM_Engine_prototype_source/FieldCouplerNd.cs
+ create mode 100644 NEM_Engine_prototype_source/FieldCouplerNd3d.cs
+ create mode 100644 NEM_Engine_prototype_source/FieldProbe.cs
+ create mode 100644 NEM_Engine_prototype_source/GDiscreteOperators.cs
+ create mode 100644 NEM_Engine_prototype_source/GDiscreteOperatorsRes.cs
+ create mode 100644 NEM_Engine_prototype_source/GREngine.cs
+ create mode 100644 NEM_Engine_prototype_source/GRHarmonicEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/HUDReadout.cs
+ create mode 100644 NEM_Engine_prototype_source/MasterNode.cs
+ create mode 100644 NEM_Engine_prototype_source/MaxwellEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/MaxwellEngine2Form.cs
+ create mode 100644 NEM_Engine_prototype_source/MaxwellEngineRes.cs
+ create mode 100644 NEM_Engine_prototype_source/MetricComplex.cs
+ create mode 100644 NEM_Engine_prototype_source/MetricNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/AGENTS.md
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionContext.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionContext.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionLayerNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ActionLayerNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseClassesAndInterfaces.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseClassesAndInterfaces.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseContinuousField.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseContinuousField.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseDiscreteLayer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseDiscreteLayer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseManifoldLayer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/BaseManifoldLayer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueDatabase.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueDatabase.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueTone.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DialogueTone.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DichotomyOperator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/DichotomyOperator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EmotionFieldNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EmotionFieldNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyAnchorNode3D.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyAnchorNode3D.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyCollapseEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/EntropyCollapseEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/FieldProbe.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/FieldProbe.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRDiscreteOperators.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRDiscreteOperators.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRHarmonicEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GRHarmonicEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GR_Operator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/GR_Operator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HManifoldSnapshot.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HManifoldSnapshot.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HUDManifoldDisplay.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HUDManifoldDisplay.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicAttentionMatrix.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicAttentionMatrix.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicCellGenerator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HarmonicCellGenerator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HodgeLaplacian.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/HodgeLaplacian.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IncidenceBuilder.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IncidenceBuilder.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IntentFieldNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/IntentFieldNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/KnowledgeGraphNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/KnowledgeGraphNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicCastingState.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicCastingState.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldOperator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MagicFieldOperator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ManifoldRegulator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ManifoldRegulator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MaxwellEngine2Form.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MaxwellEngine2Form.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MetricNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MetricNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MovementTrail.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/MovementTrail.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEM-U_TheorumProof2026.txt
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.old
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.old.1
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.csproj.old.2
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NEMU_Engine.sln
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NLCASNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NLCASNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuAst.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuAst.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuParser.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuParser.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResource.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResource.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceFormatLoader.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceFormatLoader.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceLoaderNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NmuResourceLoaderNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcBumble.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcBumble.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcMind.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcMind.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcThalegrim.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/NpcThalegrim.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ObserverController.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ObserverController.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerController.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerController.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerHElement.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PlayerHElement.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ProceduralFloor.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ProceduralFloor.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PseudoLLMIndex.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PseudoLLMIndex.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PsiDebug.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/PsiDebug.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Quest.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Quest.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/QuestEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/QuestEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RaycastInteractionLayer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RaycastInteractionLayer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Regulator.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/Regulator.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RelationshipCoupler.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/RelationshipCoupler.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SceneTreeRoot.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SimplicialComplexNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SimplicialComplexNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SparseMatrix.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/SparseMatrix.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TextChunk.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TextChunk.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/TheCityNode.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UnifiedEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UnifiedEngine.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UniverseRoot.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/UniverseRoot.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode3D.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/VerseNode3D.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/WireframeFieldVisualizer.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/WireframeFieldVisualizer.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/fcstd_importer.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/fcstd_importer.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/fcstd_to_obj.py
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/plugin.cfg
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/plugin.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/addons/fcstd_importer/plugin.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/assets/CityVerseNode.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/assets/CityVerseNode.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/icon.png
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/icon.png.import
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/ms-dotnettools.csdevkit-3.20.199-win32-x64.vs
+ix
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/neg_fly_camera.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/neg_fly_camera.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build.log
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build.ps1
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/nemu_build_20260910_163005.log
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/project.godot
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/VerseNodeMaterial.tres
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/CognitiveLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/EMFieldLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/EngineLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/FloorGeometryLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/HUDLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/MagicLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/NPCMindLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/Layers/PlayerLayer.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scenes/VerseNode3D.tscn
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scripts/HarmonicSeed.cs
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/scripts/HarmonicSeed.cs.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode.gdshader
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNode.gdshader.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/res/shaders/VerseNodeMaterial.tres
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/the_city_node.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/the_city_node.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/verse_node.gd
+ create mode 100644 NEM_Engine_prototype_source/NEMU_Engine.godot/verse_node.gd.uid
+ create mode 100644 NEM_Engine_prototype_source/RoamingSamplerTestScene.cs
+ create mode 100644 NEM_Engine_prototype_source/SimplicialComplexNode.cs
+ create mode 100644 NEM_Engine_prototype_source/TensorField.cs
+ create mode 100644 NEM_Engine_prototype_source/UnifiedEngine.cs
+ create mode 100644 NEM_Engine_prototype_source/UniverseRoot.cs
+ create mode 100644 NEM_Engine_prototype_source/Volume.cs
+ create mode 100644 NEM_Engine_prototype_source/icon.png
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 331 bytes | 331.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Shifty-Psycles-Game-Labs/source-code-prototype.git
+   b99c6e3..edd755d  main -> main
+
+lawbe@DESKTOP-P7TUEDK MINGW64 /e/ShiftyPsyclesGameLabs/ARCHIVE/ZIPs/NEMU_source_codePrototype_release (main)
+$

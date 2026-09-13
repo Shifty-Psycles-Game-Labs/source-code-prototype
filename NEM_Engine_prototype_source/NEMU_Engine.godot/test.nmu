@@ -1,0 +1,7 @@
+@nmu(version="0.1")
+
+::physics
+    operator TestOperator(param="hello")
+::
+
+@export(godot)
