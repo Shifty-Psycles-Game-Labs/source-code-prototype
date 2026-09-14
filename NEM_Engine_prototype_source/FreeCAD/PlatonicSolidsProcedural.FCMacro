@@ -1,0 +1,97 @@
+import FreeCAD as App
+import Part
+
+doc = App.ActiveDocument
+
+def make_poly(name, verts, faces):
+    poly = Part.makePolyhedron(verts, faces)
+    obj = doc.addObject("Part::Feature", name)
+    obj.Shape = poly
+
+# Tetrahedron
+tetra_verts = [
+    App.Vector(1,1,1),
+    App.Vector(-1,-1,1),
+    App.Vector(-1,1,-1),
+    App.Vector(1,-1,-1)
+]
+tetra_faces = [
+    [0,1,2],
+    [0,3,1],
+    [0,2,3],
+    [1,3,2]
+]
+make_poly("Tetrahedron", tetra_verts, tetra_faces)
+
+# Cube
+cube = doc.addObject("Part::Box","Cube")
+cube.Length = 2
+cube.Width = 2
+cube.Height = 2
+
+# Octahedron
+oct_verts = [
+    App.Vector(1,0,0),
+    App.Vector(-1,0,0),
+    App.Vector(0,1,0),
+    App.Vector(0,-1,0),
+    App.Vector(0,0,1),
+    App.Vector(0,0,-1)
+]
+oct_faces = [
+    [0,2,4],[2,1,4],[1,3,4],[3,0,4],
+    [2,0,5],[1,2,5],[3,1,5],[0,3,5]
+]
+make_poly("Octahedron", oct_verts, oct_faces)
+
+# Icosahedron
+phi = (1 + 5**0.5) / 2
+ico_verts = [
+    App.Vector(-1,  phi, 0), App.Vector(1,  phi, 0),
+    App.Vector(-1, -phi, 0), App.Vector(1, -phi, 0),
+    App.Vector(0, -1,  phi), App.Vector(0, 1,  phi),
+    App.Vector(0, -1, -phi), App.Vector(0, 1, -phi),
+    App.Vector( phi, 0, -1), App.Vector( phi, 0, 1),
+    App.Vector(-phi, 0, -1), App.Vector(-phi, 0, 1)
+]
+ico_faces = [
+    [0,11,5],[0,5,1],[0,1,7],[0,7,10],[0,10,11],
+    [1,5,9],[5,11,4],[11,10,2],[10,7,6],[7,1,8],
+    [3,9,4],[3,4,2],[3,2,6],[3,6,8],[3,8,9],
+    [4,9,5],[2,4,11],[6,2,10],[8,6,7],[9,8,1]
+]
+make_poly("Icosahedron", ico_verts, ico_faces)
+
+# Dodecahedron — explicit vertex / face list derived from the golden ratio.
+# Part.makeIcosahedron() / .makeDual() are not available as standalone calls
+# in FreeCAD 1.x; we use the known 20-vertex, 12-pentagonal-face construction
+# converted to triangles for Part.makePolyhedron().
+phi = (1 + 5**0.5) / 2
+b   = 1.0 / phi
+c   = 2.0 - phi
+dode_verts = [
+    App.Vector( 1, 1, 1), App.Vector( 1, 1,-1),
+    App.Vector( 1,-1, 1), App.Vector( 1,-1,-1),
+    App.Vector(-1, 1, 1), App.Vector(-1, 1,-1),
+    App.Vector(-1,-1, 1), App.Vector(-1,-1,-1),
+    App.Vector(0, b, phi), App.Vector(0,-b, phi),
+    App.Vector(0, b,-phi), App.Vector(0,-b,-phi),
+    App.Vector( b, phi, 0), App.Vector(-b, phi, 0),
+    App.Vector( b,-phi, 0), App.Vector(-b,-phi, 0),
+    App.Vector( phi, 0, b), App.Vector( phi, 0,-b),
+    App.Vector(-phi, 0, b), App.Vector(-phi, 0,-b),
+]
+# 12 pentagonal faces, each fan-triangulated into 3 triangles (pivot = face[0])
+dode_pentagons = [
+    [0,8,9,2,16],[0,16,17,1,12],[0,12,13,4,8],
+    [5,13,12,1,10],[5,10,11,7,19],[5,19,18,4,13],
+    [3,17,16,2,14],[3,14,15,7,11],[3,11,10,1,17],
+    [6,9,8,4,18],[6,18,19,7,15],[6,15,14,2,9],
+]
+dode_tris = []
+for pent in dode_pentagons:
+    for k in range(1, 3):
+        dode_tris.append([pent[0], pent[k], pent[k+1]])
+make_poly("Dodecahedron", dode_verts, dode_tris)
+
+doc.recompute()
